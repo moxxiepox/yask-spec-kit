@@ -1,3 +1,15 @@
+---
+date: '2025-12-28'
+description: Architecture directory README template for YASK system
+status: active
+tags:
+  - yask
+  - yask/type/template
+  - yask/status/active
+title: Architecture README Template
+version: 6.0.0
+---
+
 # [Feature Name] Architecture
 
 ## Architecture Overview
@@ -35,11 +47,11 @@ architecture/
 ## Navigation
 
 ### From Main Design
-- **[Main Design Document](../design.md)** - High-level architecture overview
+- **[[Main Design Document]]** - High-level architecture overview
 
 ### To Implementation
-- **[Tasks Document](../tasks.md)** - Implementation task breakdown
-- **[Requirements](../requirements.md)** - What this architecture addresses
+- **[[Tasks Document]]** - Implementation task breakdown
+- **[[Requirements]]** - What this architecture addresses
 
 ## Architecture Decisions
 

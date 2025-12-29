@@ -1,3 +1,15 @@
+---
+date: '2025-12-28'
+description: Project structure map template for YASK system
+status: active
+tags:
+  - yask
+  - yask/type/template
+  - yask/status/active
+title: Project Structure Map Template
+version: 6.0.0
+---
+
 # [Project Name]: Project Structure Map
 
 ## Project Organization
@@ -32,16 +44,16 @@ project-root/
 ## Navigation Guide
 
 ### By Development Phase
-- **Planning**: [Requirements](requirements.md) → [Design](design.md) → [Tasks](tasks.md)
-- **Implementation**: [Tasks](tasks.md) → Implementation Code
-- **Validation**: [Testing Strategy](design.md#testing-strategy) → [Acceptance Criteria](requirements.md#acceptance-criteria)
+- **Planning**: [[Requirements]] → [[Design]] → [[Tasks]]
+- **Implementation**: [[Tasks]] → Implementation Code
+- **Validation**: [[Testing Strategy|design.md#testing-strategy]] → [[Acceptance Criteria|requirements.md#acceptance-criteria]]
 
 ### By Component
-- **Core Systems**: [Component A](architecture/component-a.md) → [Component B](architecture/component-b.md)
-- **Integration**: [System Integration](architecture/integration.md)
+- **Core Systems**: [[Component A]] → [[Component B]]
+- **Integration**: [[System Integration]]
 
 ### Cross-Reference Patterns
-- **Internal References**: *See [Detailed Architecture](architecture/component-name/detailed-spec.md) for comprehensive information.*
+- **Internal References**: *See [[Detailed Architecture]] for comprehensive information.*
 - **Requirement Traceability**: _Requirements: 1.1, 1.2, 4.6_
 - **Document Relationships**: Links between requirements → design → tasks → implementation
 

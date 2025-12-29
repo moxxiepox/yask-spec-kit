@@ -1,3 +1,24 @@
+---
+date: '2025-12-28'
+description: Comprehensive analysis and evaluation of the YASK spec-driven development system
+status: active
+title: YASK System - Comprehensive Analysis Report
+version: 6.0.0
+tags:
+  - system/yask
+  - yask/type/documentation
+  - yask/status/active
+  - directory/active-projects
+  - system/opencode
+  - system/first-principles
+  - type/documentation
+  - feature/native-gui
+  - status/active
+
+---
+
+
+
 # Spec-Driven Development System: Comprehensive Analysis
 
 ## Overview

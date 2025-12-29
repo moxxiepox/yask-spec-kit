@@ -1,3 +1,24 @@
+---
+date: '2025-12-28'
+description: YASK spec-driven development system overview and setup guide
+status: active
+title: YASK System - README
+version: 6.0.0
+tags:
+  - system/yask
+  - yask/type/documentation
+  - yask/status/active
+  - directory/active-projects
+  - system/opencode
+  - system/meta-prompting
+  - type/documentation
+  - feature/native-gui
+  - status/active
+
+---
+
+
+
 ## YASK, a Kiro-inspired Spec-Dev System
 
 **Yet Another Spec-Kit.** Go figures! I based this spec-kit mainly using Kiro's rules and guidelines and complimented with documentation from a few others, like user-created and GitHub's own spec-kit. I wasn't satisfied with any of them. This format *should* be compatible with Kiro.
@@ -44,7 +65,7 @@ __________
 - Must fix cursor implementation automation, currently as a 'mode' or modified custom instruction for Plan mode, only tried as a custom mode.
 - Add VS-based profile for Roo and Kilo.
 
--! remove dependency on spec.sh script. Almost fully achieved.
+-! remove dependency on spec.sh script. ✅ COMPLETED.
 ? ...should we remove installer dependency altogether and bundle different zip releases for specific agent wrappers?
 
 -! refine cross-documentation workflow, check that when updating design, it checks if it needs to update requirements, make more open to also changing ALL docs

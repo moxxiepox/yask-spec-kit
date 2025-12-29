@@ -1,3 +1,15 @@
+---
+date: '2025-12-28'
+description: Comprehensive document creation guide for spec-driven development
+status: active
+tags:
+  - yask
+  - yask/type/documentation
+  - yask/status/active
+title: Document Patterns & Templates
+version: 6.0.0
+---
+
 # Document Patterns & Templates
 
 Comprehensive document creation guide for spec-driven development.
@@ -300,6 +312,268 @@ architecture/
 **Pseudocode Fallback**: For complex code issues, use pseudocode reconstruction approach
 **Local-First Dependencies**: Prefer local installations for workspace isolation and project hygiene
 
+## Enhanced AI Reasoning and Decision Frameworks
+
+### Structured Decision-Making Patterns
+
+#### Technical Choice Evaluation Matrix
+```
+EVALUATION CRITERIA FRAMEWORK:
+
+Performance Impact (Weight: 25%)
+- Speed and efficiency implications
+- Scalability considerations
+- Resource utilization optimization
+- Response time requirements
+
+Maintainability (Weight: 20%)
+- Code clarity and documentation
+- Ease of debugging and testing
+- Long-term sustainability
+- Team knowledge requirements
+
+Development Complexity (Weight: 20%)
+- Implementation difficulty
+- Learning curve for team
+- Integration complexity
+- Time to market implications
+
+Architecture Alignment (Weight: 15%)
+- Consistency with existing patterns
+- Technology stack compatibility
+- Design principle adherence
+- Future extensibility
+
+Risk Assessment (Weight: 10%)
+- Technical risk evaluation
+- Business impact potential
+- Mitigation strategy availability
+- Rollback complexity
+
+Cost-Benefit Analysis (Weight: 10%)
+- Development cost estimation
+- Operational cost implications
+- ROI potential
+- Resource allocation efficiency
+
+DECISION MATRIX TEMPLATE:
+Option A: [Score 1-5] × [Weight] = [Weighted Score]
+Option B: [Score 1-5] × [Weight] = [Weighted Score]
+Option C: [Score 1-5] × [Weight] = [Weighted Score]
+
+SELECT OPTION with highest weighted score + document rationale
+```
+
+#### Problem-Solving Thought Processes
+
+**Context Analysis Framework:**
+```
+SITUATION ASSESSMENT:
+1. CURRENT STATE: What exists now?
+2. DESIRED STATE: What needs to be achieved?
+3. CONSTRAINTS: What limitations exist?
+4. RESOURCES: What tools and knowledge are available?
+5. STAKEHOLDERS: Who is affected by decisions?
+6. TIMELINE: What are the deadlines and milestones?
+
+PROBLEM DECOMPOSITION:
+- Break complex problems into manageable components
+- Identify interdependencies and relationships
+- Prioritize components by impact and complexity
+- Plan systematic resolution approach
+```
+
+**Option Generation and Evaluation:**
+```
+OPTION GENERATION:
+1. CONVENTIONAL: Standard industry approaches
+2. INNOVATIVE: Creative or novel solutions
+3. HYBRID: Combination of existing approaches
+4. MINIMAL: Minimal viable solution approach
+5. COMPREHENSIVE: Full-featured solution
+
+EVALUATION PROCESS:
+1. FEASIBILITY: Can it be implemented?
+2. EFFECTIVENESS: Will it solve the problem?
+3. EFFICIENCY: Is it the best use of resources?
+4. SUSTAINABILITY: Can it be maintained long-term?
+5. ACCEPTABILITY: Will stakeholders approve?
+
+DECISION CRITERIA:
+- Must-have requirements satisfaction
+- Nice-to-have feature prioritization
+- Risk tolerance consideration
+- Resource availability assessment
+```
+
+### Advanced Prompting Strategies
+
+#### Context Setting and Communication Patterns
+
+**Project Context Establishment:**
+```
+CONTEXT LOADING PROTOCOL:
+1. READ all relevant specification documents
+2. ANALYZE current project phase and objectives
+3. IDENTIFY constraints, assumptions, and dependencies
+4. CLARIFY success criteria and quality standards
+5. CONFIRM understanding with stakeholder validation
+
+COMMUNICATION FRAMEWORK:
+- Use clear, specific language
+- Provide comprehensive context before requests
+- Ask clarifying questions when uncertain
+- Summarize understanding for confirmation
+- Document decisions and rationale
+```
+
+**Phase Transition Communication:**
+```
+REQUIREMENTS → DESIGN TRANSITION:
+"Based on approved requirements, I will create a comprehensive technical design that:
+- Addresses all specified requirements
+- Provides clear architecture and component definitions
+- Includes design decisions with rationale
+- Plans for error handling and testing
+- Maintains traceability to requirements"
+
+DESIGN → TASKS TRANSITION:
+"Breaking down the approved design into actionable implementation tasks:
+- Decomposing components into discrete coding steps
+- Sequencing tasks for logical implementation flow
+- Maintaining requirement traceability
+- Identifying optional tasks for testing and enhancements"
+
+TASKS → IMPLEMENTATION TRANSITION:
+"Executing the selected implementation task:
+- Loading complete specification context
+- Implementing functionality with quality validation
+- Verifying against requirements and design
+- Providing comprehensive progress summary"
+```
+
+#### Quality Assurance Prompting
+
+**Pre-Implementation Validation:**
+```
+QUALITY CHECK PROTOCOL:
+1. FORMAT COMPLIANCE: Verify document structure and template adherence
+2. CONTENT COMPLETENESS: Ensure all required sections are present
+3. LOGICAL CONSISTENCY: Check for internal contradictions
+4. TRACEABILITY VERIFICATION: Confirm requirement-to-implementation links
+5. FEASIBILITY ASSESSMENT: Validate technical approach viability
+
+VALIDATION QUESTIONS:
+- Does this meet all specified requirements?
+- Is the approach technically sound and feasible?
+- Are there any gaps or inconsistencies?
+- Will this integrate properly with existing systems?
+- What are the potential risks and mitigation strategies?
+```
+
+**Post-Implementation Verification:**
+```
+IMPLEMENTATION VALIDATION:
+1. FUNCTIONALITY TESTING: Verify against acceptance criteria
+2. CODE QUALITY ANALYSIS: Check syntax, structure, and best practices
+3. INTEGRATION TESTING: Confirm compatibility with existing systems
+4. PERFORMANCE VALIDATION: Ensure efficiency and scalability
+5. DOCUMENTATION ACCURACY: Verify documentation reflects implementation
+
+VERIFICATION CHECKLIST:
+- [ ] All acceptance criteria satisfied
+- [ ] Code passes syntax and quality checks
+- [ ] Integration points work correctly
+- [ ] Performance meets requirements
+- [ ] Documentation is accurate and complete
+- [ ] No regression issues introduced
+```
+
+### Enhanced Template Usage Guidelines
+
+#### Template Selection and Adaptation
+
+**Template Selection Criteria:**
+```
+TEMPLATE SELECTION MATRIX:
+
+Project Complexity:
+- Simple (1-3 requirements) → Basic templates
+- Moderate (4-10 requirements) → Standard templates
+- Complex (10+ requirements) → Enhanced templates with architecture
+
+Team Size:
+- Solo developer → Streamlined templates
+- Small team (2-5) → Standard templates
+- Large team (5+) → Comprehensive templates with detailed traceability
+
+Technical Domain:
+- Web development → Standard templates
+- System programming → Enhanced technical templates
+- Data science → Specialized domain templates
+- Mobile development → Platform-specific templates
+
+Documentation Needs:
+- Minimal → Basic templates
+- Standard → Regular templates
+- Comprehensive → Detailed templates with extensive cross-referencing
+```
+
+**Template Adaptation Guidelines:**
+```
+ADAPTATION PRINCIPLES:
+1. PRESERVE core structure and required elements
+2. ENHANCE sections based on project complexity
+3. CUSTOMIZE examples to match domain and technology
+4. MAINTAIN consistency across all project documents
+5. SCALE documentation appropriately to feature scope
+
+ADAPTATION CHECKLIST:
+- [ ] Core template structure maintained
+- [ ] Required sections present and complete
+- [ ] Domain-specific examples included
+- [ ] Technology-specific considerations addressed
+- [ ] Cross-references updated for project context
+- [ ] Quality standards maintained throughout
+```
+
+#### Cross-Document Consistency Patterns
+
+**Traceability Maintenance:**
+```
+TRACEABILITY FRAMEWORK:
+1. REQUIREMENT IDENTIFICATION: Unique IDs for each requirement
+2. DESIGN MAPPING: Link design components to specific requirements
+3. TASK BREAKDOWN: Reference requirements in each implementation task
+4. IMPLEMENTATION VALIDATION: Verify code satisfies specific requirements
+5. TEST COVERAGE: Ensure tests validate requirement satisfaction
+
+CONSISTENCY VALIDATION:
+- Every requirement must have design coverage
+- Every design component must trace to requirements
+- Every task must reference specific requirements
+- Every implementation must satisfy traced requirements
+- Every test must validate specific acceptance criteria
+```
+
+**Change Impact Assessment:**
+```
+CHANGE IMPACT ANALYSIS:
+1. IDENTIFY changed elements and scope
+2. MAP dependencies and relationships
+3. ASSESS impact on related documents
+4. PLAN systematic updates across ecosystem
+5. VALIDATE consistency after changes
+
+IMPACT ASSESSMENT MATRIX:
+Document Type | Change Type | Impact Level | Update Required
+Requirements  | Content     | High         | Design + Tasks
+Design        | Architecture| High         | Requirements + Tasks
+Design        | Component   | Medium       | Tasks only
+Tasks         | Sequencing  | Low          | Implementation only
+Implementation| Code        | Low          | Documentation only
+```
+
 ## AI Agent Communication Patterns
 
 ### Requirements Phase
@@ -342,8 +616,8 @@ architecture/
 ✅ **Use**: "Execute the selected task from tasks.md, read all spec documents for context, implement the functionality, and provide a comprehensive summary"
 
 ## Related Documents
-- **System Overview**: [principles.md](principles.md) - Complete system guide with principles and philosophy
-- **Process Guide**: [process.md](process.md) - Workflow and communication guidance
+- **System Overview**: [[principles.md]] - Complete system guide with principles and philosophy
+- **Process Guide**: [[process.md]] - Workflow and communication guidance
 
 ## Available Templates
 
@@ -428,8 +702,8 @@ _Related: requirements.md → design.md → tasks.md_
 - **CHECK consistency** → requirement changes should cascade to design and tasks
 
 ### Navigation Patterns
-- **Internal References**: `*See [Section](#section) for details*`
-- **External References**: `*See [Design Document](design.md) for architecture*`
+- **Internal References**: `*See [[Section|#section]] for details*`
+- **External References**: `*See [[Design Document]] for architecture*`
 - **Requirement Traceability**: `_Requirements: 1.1, 1.2, 4.6_`
 
 ### Requirement Traceability Examples

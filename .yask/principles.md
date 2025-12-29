@@ -1,3 +1,15 @@
+---
+date: '2025-12-28'
+description: Comprehensive system overview for AI agents in structured software development
+status: active
+tags:
+  - yask
+  - yask/type/documentation
+  - yask/status/active
+title: Spec-Driven Development System Guide
+version: 6.0.0
+---
+
 # Spec-Driven Development System Guide
 
 Comprehensive system overview for AI agents in structured software development.
