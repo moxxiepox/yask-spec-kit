@@ -417,18 +417,19 @@ class OptimizedContextLoader:
         # Performance metrics
         self.metrics_history: List[LoadingMetrics] = []
 
-def _default_config(self) -> Dict[str, Any]:
+    def _default_config(self) -> Dict[str, Any]:
         """Default configuration"""
         config = {
-            "loading_strategy": args.strategy,
+            "loading_strategy": "smart",
             "enable_parallel_loading": True,
             "enable_predictive_loading": True,
             "enable_usage_tracking": True,
             "priority_threshold": ContextPriority.MEDIUM.value,
             "cache_size_mb": 1.00e2,  # 100 MB
             "max_concurrent_loads": 4.0e0,  # 4 concurrent loads
-            "cache_ttl_hours": 2.40e1  # 24 hours
+            "cache_ttl_hours": 2.40e1,  # 24 hours
         }
+        return config
 
     def _initialize_context_registry(self):
         """Initialize context file registry with priorities"""
